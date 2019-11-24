@@ -130,7 +130,7 @@ func findTeam() {
 }
 func main() {
 
-	myip := "192.168.1.6"
+	myip := "192.168.1.60"
 	fmt.Printf("Soy %s\n", myip)
 	go registerServer(myip)
 	go hotServer(myip)
